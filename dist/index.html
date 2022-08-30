@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <title>To Do List - Webpack</title>
+<script defer src="main.js"></script></head>
+<body>
+    <h1>Today's To Do List</h1>
+    <div class="completeList">
+        <div class="information">To Do for Today</div>
+        <div class="editable">
+            <input type="text" name="to-do-title" id="entry-to-do" placeholder="Add item to list...">
+            <button type="submit" id="saveBtn" class="button"><i class="fa fa-plus" aria-hidden="true"></i></button>
+        </div>
+        <div id="the-list" class="generate-to-do"></div>
+        <div class="remove"><button type="reset" id="resetBtn">Clear all completed</button></div>
+    </div>
+</body>
+</html>

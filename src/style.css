@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.completeList {
+  border-radius: 5px;
+  width: 30vw;
+  box-shadow: 3px 3px 5px 5px lightgray;
+}
+
+.information {
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.editable {
+  display: flex;
+  border-bottom: 1px solid black;
+}
+
+.description {
+  width: 80%;
+  border: none;
+}
+
+.description:focus {
+  outline: none;
+  font-weight: bold;
+}
+
+#saveBtn {
+  background-color: white;
+  border: none;
+  margin-right: 10px;
+  padding: 10px 20px 10px 20px;
+}
+
+.editBn {
+  height: 37px;
+  width: 45px;
+  font-weight: bold;
+  text-align: center;
+  cursor: move;
+  border: none;
+  background-color: #fff;
+}
+
+.containerDiv {
+  background-color: #ffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  padding: 10px;
+  column-gap: 15px;
+}
+
+#entry-to-do {
+  border: none;
+  width: 28vw;
+  padding: 10px;
+}
+
+.generate-to-do {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.generate-to-do li {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+
+.remove button {
+  padding: 10px;
+  width: 30vw;
+  color: rgb(148, 145, 145);
+  border: none;
+}
