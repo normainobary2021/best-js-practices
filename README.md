@@ -12,7 +12,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link soon]()
+[Live Demo Link](https://normainobary2021.github.io/best-js-practices/dist/)
 
 ## Getting Started
 
